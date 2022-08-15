@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+</head>
+<body>
+<h1 align ="center">Registration Form</h1>
+<hr>
+<div>
+<form action="ApplicationServlet" method ="post">
+<br> <br>
+First Name : <input type = "text" name = "Firstname"> <br> <br>
+Last Name : <input type ="text" name = "Lastname"> <br> <br> 
+Gender : 
+<input type ="radio" id = "male" name ="gender" value ="male"> male
+<input type ="radio" id = "female" name ="gender" value ="female"> female <br> <br>
+Qualification :
+<select aotofocus name ="education" id = "education" >
+<option value = "" >None</option>
+<option value = "SSC">SSC </option>
+<option value = "HSC">SSC </option>
+<option value = "GRADUATION">GRADUATION </option> 
+</select> <br> <br>
+Languages :
+<input type ="checkbox" name ="language" value ="English">English 
+<input type ="checkbox" name ="language" value ="Hindi">Hindi 
+<input type ="checkbox" name ="language" value ="Marathi">Marathi 
+<input type ="checkbox" name ="language" >Others <br> 
+<br> <input type ="submit" name = "Submit">/
+</form>
+</div>
+</body>
+</html>
